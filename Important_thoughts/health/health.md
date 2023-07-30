@@ -4859,20 +4859,13 @@ Laufs教授领导的研究人员招募了266名年轻，健康但不爱运动的
 
 共10个项目，每个40s左右，400s=6m40s。
 
-![](./health.assets/image53.png){width="1.4305555555555556in"
-height="2.0320395888014in"}
-![](./health.assets/image54.png){width="2.3333333333333335in"
-height="1.4472561242344706in"}
-![](./health.assets/image55.png){width="2.1319444444444446in"
-height="1.71254593175853in"}
-![](./health.assets/image56.png){width="2.741903980752406in"
-height="1.8834962817147856in"}
-![](./health.assets/image57.png){width="2.0625in"
-height="1.9032633420822398in"}
-![](./health.assets/image58.png){width="2.326388888888889in"
-height="1.646367016622922in"}
-![](./health.assets/image59.png){width="2.1597222222222223in"
-height="1.6535378390201225in"}
+![](./health.assets/image53.png)
+![](./health.assets/image54.png)
+![](./health.assets/image55.png)
+![](./health.assets/image56.png)
+![](./health.assets/image57.png)
+![](./health.assets/image58.png)
+![](./health.assets/image59.png)
 
 同样的时间比跑步更高效，可在任何地方完成。
 
