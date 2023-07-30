@@ -24,7 +24,7 @@
 
 不要去盲目选择药物去服用，对症下药。在发烧期间一定要按时吃药，多喝水。拿热毛巾擦拭自己的身体。让身体快速退烧并回复。等体温回复也要测量抗原。还有就是检测好自己的体温，如觉得自己抗不过去一定要及时就医。
 
-![](.\health-illness.assets/image1.png){width="4.611111111111111in"
+![](./health-illness.assets/image1.png){width="4.611111111111111in"
 height="3.9166666666666665in"}
 
 #### [N95口罩能否通过喷洒酒精的方式重复使用？](https://www.zhihu.com/question/367683843)
@@ -41,7 +41,7 @@ height="3.9166666666666665in"}
 
 但纯酒精则破坏力较大，根据此前的实验，纯酒精浸泡后的过滤层滤过率比实验前下降了77.42%。此外，在洗衣粉和清洁剂里浸泡后，其过滤效率也大幅下降，这些都不推荐使用。
 
-![](.\health-illness.assets/image2.png){width="4.090277777777778in"
+![](./health-illness.assets/image2.png){width="4.090277777777778in"
 height="1.3333333333333333in"}
 
 04
@@ -121,16 +121,16 @@ height="1.3333333333333333in"}
 
 喷涂过程中发现一个问题，三款N95口罩和一款医用口罩的确都不具备防水功能，近距离喷涂正面的时候，就能明显看到酒精浸湿渗透的情况。
 
-![](.\health-illness.assets/image3.png){width="4.909722222222222in"
+![](./health-illness.assets/image3.png){width="4.909722222222222in"
 height="2.8333333333333335in"}
 
-![](.\health-illness.assets/image4.png){width="4.916666666666667in"
+![](./health-illness.assets/image4.png){width="4.916666666666667in"
 height="2.8680555555555554in"}
 
-![](.\health-illness.assets/image5.png){width="4.909722222222222in"
+![](./health-illness.assets/image5.png){width="4.909722222222222in"
 height="2.861111111111111in"}
 
-![](.\health-illness.assets/image6.png){width="5.25in"
+![](./health-illness.assets/image6.png){width="5.25in"
 height="3.0694444444444446in"}
 
 此外，艾薇瑞胞弟请注意，KN95不防水是合理的。不管是GB
@@ -196,7 +196,7 @@ kn95不防液体飞溅
 
 ### [[被*蚊子咬*了，擦它最止痒！花露水、木瓜膏、紫草膏真的弱鸡]{.ul}](https://zhuanlan.zhihu.com/p/72651886)
 
-![](.\health-illness.assets/image7.jpeg){width="3.638888888888889in"
+![](./health-illness.assets/image7.jpeg){width="3.638888888888889in"
 height="9.0in"}
 
 ### 避蚊胺
@@ -234,7 +234,7 @@ NO.009278\
 
 #### [护士必读 \| 输液扎针技巧](https://zhuanlan.zhihu.com/p/398253366)
 
-![](.\health-illness.assets/image8.jpeg){width="5.768055555555556in"
+![](./health-illness.assets/image8.jpeg){width="5.768055555555556in"
 height="2.732638888888889in"}
 
 进针方法\
@@ -372,7 +372,7 @@ sd](https://www.zhihu.com/people/0e98c51b8da29983b6da22a0225e70d4)2017-10-19
 
 下面图片动作左右交替
 
-![image-20220108064203755](.\health-illness.assets/image9.png){width="4.736111111111111in"
+![image-20220108064203755](./health-illness.assets/image9.png){width="4.736111111111111in"
 height="3.3194444444444446in"}
 
 image-20220108064203755
@@ -385,7 +385,7 @@ image-20220108064203755
 
 这个动作，可以每次先练习一分钟，循序渐进的练习，能坚持多长时间就坚持多长时间，可以每天练习三次，每次一到五分钟。这个动作对腰椎很有帮助，能够改善骨盆前倾，腰曲过大，引起的腰部酸痛。
 
-![](.\health-illness.assets/image10.png){width="1.6527777777777777in"
+![](./health-illness.assets/image10.png){width="1.6527777777777777in"
 height="2.5in"}
 
 5 坐姿很重要
@@ -395,19 +395,19 @@ height="2.5in"}
 
 麦肯基疗法
 
-![image-20220108064604587](.\health-illness.assets/image11.png){width="5.768055555555556in"
+![image-20220108064604587](./health-illness.assets/image11.png){width="5.768055555555556in"
 height="8.047916666666667in"}
 
 image-20220108064604587
 
 双手抱膝，可加一点滚动（就抱着膝盖头和屁股方向滚来滚去的那种）
 
-![](.\health-illness.assets/image12.png){width="4.166666666666667in"
+![](./health-illness.assets/image12.png){width="4.166666666666667in"
 height="3.875in"}
 
 \"死虫子\"练习
 
-![image-20220108064904762](.\health-illness.assets/image13.png){width="5.768055555555556in"
+![image-20220108064904762](./health-illness.assets/image13.png){width="5.768055555555556in"
 height="4.277777777777778in"}
 
 image-20220108064904762
@@ -418,14 +418,14 @@ image-20220108064904762
 
 发布于 2021-10-28 10:13
 
-![image-20220108061520783](.\health-illness.assets/image14.png){width="5.768055555555556in"
+![image-20220108061520783](./health-illness.assets/image14.png){width="5.768055555555556in"
 height="6.4in"}
 
 image-20220108061520783
 
 L5-S1椎间盘突出，腰椎内半固态物质流出。
 
-![image-20220108061611125](.\health-illness.assets/image15.png){width="5.768055555555556in"
+![image-20220108061611125](./health-illness.assets/image15.png){width="5.768055555555556in"
 height="4.504861111111111in"}
 
 image-20220108061611125
@@ -707,12 +707,12 @@ image-20220108061611125
 
 ### [武汉为例子，先来看看职工医保的报销情况 详细易懂](https://zhuanlan.zhihu.com/p/285621393)
 
-![](.\health-illness.assets/image16.jpeg){width="5.768055555555556in"
+![](./health-illness.assets/image16.jpeg){width="5.768055555555556in"
 height="4.010416666666667in"}
 
 接着再来看看居民医保的报销比例情况：
 
-![](.\health-illness.assets/image17.jpeg){width="5.768055555555556in"
+![](./health-illness.assets/image17.jpeg){width="5.768055555555556in"
 height="6.207638888888889in"}
 
 **职工医保的报销比例很明显要比居民医保的报销比例要好**
@@ -751,10 +751,10 @@ height="6.207638888888889in"}
 
 ### [北京市医保报销比例](https://www.zhihu.com/question/380293785/answer/1782952934)
 
-![](.\health-illness.assets/image18.jpeg){width="5.768055555555556in"
+![](./health-illness.assets/image18.jpeg){width="5.768055555555556in"
 height="3.509027777777778in"}
 
-![](.\health-illness.assets/image19.jpeg){width="5.768055555555556in"
+![](./health-illness.assets/image19.jpeg){width="5.768055555555556in"
 height="3.9069444444444446in"}
 
 ### 我的医保参保地
@@ -1357,7 +1357,7 @@ ct
 
 ### 保险条款中关于\[医院\]范围的描述种类
 
-![](.\health-illness.assets/image20.jpeg){width="5.768055555555556in"
+![](./health-illness.assets/image20.jpeg){width="5.768055555555556in"
 height="3.4541666666666666in"}
 
 可以看出，除了不常见的第一种描述以外，其余三类描述中，**范围最广的就是"二级或以上的综合性或专科医院"了**。
@@ -1407,7 +1407,7 @@ height="3.4541666666666666in"}
 
 望岳街道电话：82353000
 
-![image-20220225083654737](.\health-illness.assets/image21.png){width="5.768055555555556in"
+![image-20220225083654737](./health-illness.assets/image21.png){width="5.768055555555556in"
 height="3.45in"}
 
 image-20220225083654737
@@ -1416,7 +1416,7 @@ image-20220225083654737
 
 诊所
 
-![image-20220225083827962](.\health-illness.assets/image22.png){width="5.768055555555556in"
+![image-20220225083827962](./health-illness.assets/image22.png){width="5.768055555555556in"
 height="4.628472222222222in"}
 
 image-20220225083827962
@@ -1425,21 +1425,21 @@ image-20220225083827962
 
 二甲 综合医院
 
-![image-20220225083958698](.\health-illness.assets/image23.png){width="5.768055555555556in"
+![image-20220225083958698](./health-illness.assets/image23.png){width="5.768055555555556in"
 height="4.175in"}
 
 image-20220225083958698
 
 长沙市芙蓉区红十字医院
 
-![](.\health-illness.assets/image24.png){width="5.768055555555556in"
+![](./health-illness.assets/image24.png){width="5.768055555555556in"
 height="1.8173611111111112in"}
 
 长沙县星沙医院
 
 二乙
 
-![](.\health-illness.assets/image25.png){width="5.768055555555556in"
+![](./health-illness.assets/image25.png){width="5.768055555555556in"
 height="1.8215277777777779in"}
 
 胸腺脂
@@ -1939,7 +1939,7 @@ yu](https://www.zhihu.com/people/4db988a3c9cdaa27cc38d51a1272e374)2017-08-30
 
 阳虚、气虚、气滞等原因导致的气血瘀滞。
 
-![](.\health-illness.assets/image26.jpeg){width="3.6944444444444446in"
+![](./health-illness.assets/image26.jpeg){width="3.6944444444444446in"
 height="2.8333333333333335in"}
 
 #### [瘀血体质的舌象](https://zhuanlan.zhihu.com/p/39205279)
@@ -1948,12 +1948,12 @@ height="2.8333333333333335in"}
 
 ##### 1、正常舌
 
-![](.\health-illness.assets/image27.png){width="2.6805555555555554in"
+![](./health-illness.assets/image27.png){width="2.6805555555555554in"
 height="2.6597222222222223in"}
 
 正常舌象的特征是：舌色淡红鲜明，舌质滋润，舌体大小适中，柔软灵活；舌苔均匀、薄白而润，简称"淡红舌，薄白苔"。
 
-![](.\health-illness.assets/image28.png){width="3.2569444444444446in"
+![](./health-illness.assets/image28.png){width="3.2569444444444446in"
 height="3.7777777777777777in"}
 
 正常舌下络脉仅隐隐可见，呈紫红色线状，绝不粗胀。大多为单枝干，络脉直径最粗不超过2.7mm，长度大多不超过舌尖与舌下肉阜连线的3/5。
@@ -1964,7 +1964,7 @@ height="3.7777777777777777in"}
 
 当我们把嘴张开，舌头上卷，会看到舌下有两条静脉。正常情况下，这二条静脉应该是淡蓝色的，直径不超过二毫米，但如果舌下静脉说明这个人体内的瘀血又黑又粗，向四周分叉，说明这个人体内的瘀血很严重。
 
-![](.\health-illness.assets/image29.png){width="1.6805555555555556in"
+![](./health-illness.assets/image29.png){width="1.6805555555555556in"
 height="1.8819444444444444in"}
 
 ##### 3、如果舌尖偏，体内可能有瘀血
@@ -1981,7 +1981,7 @@ height="1.8819444444444444in"}
 
 如果你舌苔比较多，里面透露出一点点瘀斑，这时可以抬起舌头看看舌下静脉。
 
-![](.\health-illness.assets/image30.png){width="1.6944444444444444in"
+![](./health-illness.assets/image30.png){width="1.6944444444444444in"
 height="1.6597222222222223in"}
 
 ##### 5、女瘀血+汗毛很重
@@ -2035,17 +2035,17 @@ height="1.6597222222222223in"}
 
 ##### 舌诊不同部位
 
-![](.\health-illness.assets/image31.png){width="4.875in"
+![](./health-illness.assets/image31.png){width="4.875in"
 height="2.625in"}
 
 ##### 标准的舌像是"淡红舌，薄白苔"
 
-![](.\health-illness.assets/image32.png){width="4.048611111111111in"
+![](./health-illness.assets/image32.png){width="4.048611111111111in"
 height="3.3333333333333335in"}
 
 ##### 红舌，提示热盛
 
-![](.\health-illness.assets/image33.png){width="4.930555555555555in"
+![](./health-illness.assets/image33.png){width="4.930555555555555in"
 height="2.75in"}
 
 这张舌头照看起来太红了，而且整个舌头都红，这说明身体里太热了。那这个热在哪里呢？中医把热分为热在气分和热在血分。热在气分相对较轻，这张图的热像相对较轻，是热在气分。如果热在血分，那就更红了，成绛红色。
