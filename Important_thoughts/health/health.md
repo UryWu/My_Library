@@ -4967,35 +4967,47 @@ Laufs教授领导的研究人员招募了266名年轻，健康但不爱运动的
 
 3.SHRIMP 虾行
 ![|300](health.assets/image-20230803174810189.png)  ![|250](health.assets/image-20230803174855304.png)
+
 4.BRIDGE & SHRIMP
 ![|300](health.assets/image-20230803174953576.png) ![|250](health.assets/image-20230803175036253.png)
+
 5.SHRIMP (OUTSIDE LEG）
 左足后撤
 ![|296](health.assets/image-20230803180134059.png) ![|253](health.assets/image-20230803180221546.png)
+
 6.FRONT SHRIMP 上下移动虾行 起桥虾行挪屁股就行
 ![|300](health.assets/image-20230803180417793.png) ![|239](health.assets/image-20230803180516205.png)
 ![|250](health.assets/image-20230803180543468.png) ![|350](health.assets/image-20230803180628882.png)
 ![|300](health.assets/image-20230803180736456.png)
+
 7.SHRIMP TO TURTLE 
 ![|300](health.assets/image-20230803180821347.png) ![|275](health.assets/image-20230803180914395.png)
 ![|236](health.assets/image-20230803180948321.png) ![|264](health.assets/image-20230803181012777.png)
+
 8.BUTT SCOOT 臀行
 ![|198](health.assets/image-20230803181111992.png) ![|231](health.assets/image-20230803181130912.png)
+
 9.TECHNICAL STAND UP 臀移+站立
 ![|188](health.assets/image-20230803181222139.png)
+
 10.HIP BUMPS 
 ![|202](health.assets/image-20230803181344697.png) ![|262](health.assets/image-20230803181410616.png)
 
 11.HIP UP TRIANGLES
 ![|177](health.assets/image-20230803181450965.png)  ![|271](health.assets/image-20230803181514989.png)
+
 12.LEG POMMEL 小腿旋转
 ![|228](health.assets/image-20230803181550425.png) ![|269](health.assets/image-20230803181609918.png)
+
 13.HIP SWITCH 臀移
 ![|225](health.assets/image-20230803181726234.png) ![|150](health.assets/image-20230803181752091.png) ![|225](health.assets/image-20230803181821767.png)
+
 14.HIP SWITCH (IN PLACE）定点臀移
 ![|167](health.assets/image-20230803181919479.png) ![|212](health.assets/image-20230803181945915.png) ![|194](health.assets/image-20230803182014011.png)
+
 15.HIP SWITCH (KICK THROUGH) 踢式臀移
 ![|196](health.assets/image-20230803182129048.png) ![|182](health.assets/image-20230803182205132.png) ![|195](health.assets/image-20230803182255945.png)
+
 16.BACK ROLL 后滚
 ![|208](health.assets/image-20230803182354732.png) ![|309](health.assets/image-20230803182422151.png)
 
