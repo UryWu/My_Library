@@ -1225,3 +1225,26 @@ lydia2828
 2023-06-12 18:44
 
 ## [HowToLiveLonger](https://github.com/geekan/HowToLiveLonger)
+
+
+## [sex-restriction and longevity](https://www.crsociety.org/topic/12081-sex-restriction-and-longevity/#comment-20356)
+
+Posted January 22, 2017
+There are two articles:
+1. Castration & Life Expectancy: Eunuchs Live Longer Than Other Men, Study Shows (http://m.huffpost.com/us/entry/1910455)
+2. Having multiple sexual partners shortens lifespan. ( http://www.everydayhealth.com/longevity/can-promiscuity-threaten-longevity.aspx)
+
+I remember the average lifespan of emperors were only about 30-40 years. Eunuchs lived more than twice longer than emperors...
+
+
+### [太监的寿命比正常男性要长14至19年](https://www.zhihu.com/question/19950425/answer/17349290 )
+Min和同事韩国大学的Cheol-Koo Lee发现，**太监的寿命比正常男性要长14至19年。在他们研究的81名太监中，3名活到了100岁以上，这样的长寿即使在当今发达国家也非常罕见。**
+他们发现韩国太监中百岁老人的数量是发达国家的130倍，而这并不能仅仅用他们生活在宫廷里简单解释。事实上，大多数太监生活在宫殿之外。而且，皇 室家族里的国王和男性成员却是寿命最短的，一般只活到40岁左右。该研究小组的发现被发表在《现代生物学》期刊上，或可能为延长寿命提供某些线索。
+[发布于 2013-06-03 21:16](//www.zhihu.com/question/19950425/answer/17349290)
+
+论文：[The lifespan of Korean eunuch](https://www.cell.com/current-biology/pdf/S0960-9822(12)00712-9.pdf)
+<font color="#ff0000">Further, the longevity of the Korean eunuchs could be attributable to lifestyle factors the study didn’t track, like diet, exercise and stress. </font>
+
+Obviously, the study authors don’t advocate becoming a eunuch. There are more sensible and reliable ways to up your chances of a long, healthy life: don’t smoke, eat a healthy diet, get plenty of exercise.
+
+“For better health and longevity, stay away from stresses and learn what you can from women,” the authors [said](http://www.eurekalert.org/pub_releases/2012-09/cp-eoo091812.php) in a statement.
