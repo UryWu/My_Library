@@ -1,4 +1,17 @@
 ## LangChain
+
+### langchain blog
+
+#### [github Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)
+
+
+
+#### [LangChain实战（国内大模型）| Chains的四个核心模块实测——LLMChain、SimpleSequentialChain、SequentialChain和LLMRouteChain](https://blog.csdn.net/sinat_29950703/article/details/139151435)
+
+
+
+
+
 ### [ChatGLM+Langchain构建本地知识库，只需6G显存，支持实时上传文档](https://www.bilibili.com/video/BV1t8411y7fp/)
 01_ChatGLM环境部署 13:05
 02_lagnchain加载ChatGLM 09:40
@@ -35,6 +48,7 @@
 23Agent-openai assistants调用 10:03
 24agent提示词学习 10:32
 25定制化智能体 07:07
+
 #### 评论
 兴宇的bili
 置顶分享一个开源本地版的gpts（ChatGPT-Plugins）[吃瓜]，虽然还不是很完善， 帮忙star和fork一下
@@ -127,7 +141,7 @@ Chat GPT是闭源，国内怎么落地?这不是场景的问题，这是数据�
 
 langchain中的检索增强生成（RAG）
 [视频时间戳：](https://www.bilibili.com/video/BV11p4y1R7Dy?t=1220.9)
-![](LLM-开发方向.assets/image-20240314130917672.png)
+![](LLM-开发方向学习资料.assets/image-20240314130917672.png)
 
 25:14 
 大概就几百兆吧。当时的话呢我们数据量小的时候，我们做这个检索的时候能够检索到我们相似相似的东西。当我们的数据量比较大，比如说我们构造了上千个PDF格式的文档的时候，我们就会发现呢检索出来的东西就开始胡说八道了，知道吗，就出现幻觉了。也就是说我问的是这个文档的问题，他又把另外一个文档给我串起来了，数据混乱了。
@@ -163,58 +177,6 @@ paleituo
 _2024-03-27 07:30_
 
 
-
-
-
-### [大模型算法 13-18K 长沙 1-3年 本科](https://www.zhipin.com/job_detail/91927b6f94b858311HV63t2-GFRZ.html)
-
-[微信扫码分享](javascript:;) [举报](javascript:;)
-
-- 语音/图像识别
-- Python
-- TensorFlow/PyTorch
-- 计算机相关专业
-- 机器学习算法/工程化经验
-
-生成式人工智能大语言模型开发
-主要职责：
-1、在生成式人工智能项目中进行设计和开发工作，包括但不限于人工智能模型的开发、训练、优化和部署。
-2、基于GPT、LLaMA等开源基础AI模型开发出我们自己的垂直领域的专用的AI模型；收集、整理、清洗数据集，并用数据集训练我们的AI模型。
-3、能够处理结构化和非结构化数据，如文本数据、图像数据等，熟悉数据的格式转换，如CSV、JSON、XML等。了解和实践过特征工程的基本技巧，包括特征选择、特征转换和特征提取等。具有使用数据库（如SQL、NoSQL）进行数据查询和清洗的经验。
-4、处理大规模数据集和训练大型模型，熟悉数据预处理、特征工程、模型选择和超参数调优等步骤。
-5、使用自动化机器学习（AutoML）工具和框架进行模型选择和超参数优化。
-6、熟悉当前的模型训练最佳实践，能够识别过拟合、欠拟合等问题，并知道如何解决。对转移学习（Transfer Learning）和少样本学习（Few-shot Learning）有一定的理解和实践经验。
-7、具备在多种硬件平台（如CPU、GPU、TPU等）上进行模型训练和优化的能力。
-任职要求：
-1、计算机相关专业本科以上，工作经验两年以上。
-2、理解并能够使用常见的人工智能框架，如TensorFlow、PyTorch等，进行模型的开发和优化。
-3、理解并掌握人工智能的基础概念，熟悉常用的机器学习和深度学习算法，理解其工作原理和适用场景，包括但不限于卷积神经网络（CNN）、循环神经网络（RNN）、生成对抗网络（GANs）、强化学习等。
-4、掌握生成式人工智能的相关技术，包括大语言模型、图像生成模型、语音合成模型等，并能利用这些技术解决实际问题。有一定的NLP和Transformer的知识基础。
-5、了解大型语言模型（例如GPT、BERT、LLaMA等）的开发和优化工作原理，理解并能应用相关的技术和理论。
-6、熟悉开源项目和社区，能参与生成式人工智能开源项目的开发和维护工作，与全球的开发者社区进行交流和合作。
-7、对数据预处理和清洗有一定的了解，包括处理缺失数据、异常值、重复数据等问题。具有使用Python数据处理库（如Pandas, NumPy等）清洗和处理大规模数据集的知识和能力。
-8、具有使用数据库（如SQL、NoSQL）进行数据查询和清洗的经验。
-9、熟悉CentOS操作系统，具备在Linux环境下的项目开发和部署的能力。
-10、有Python、C++、GoLang或其他主要开发语言的实践经验。
-11、熟悉使用版本控制系统，如Git，以及持续集成/持续部署（CI/CD）工具。
-12、有使用Docker或其他容器技术进行模型部署的经验。
-13、了解常见的云平台，熟悉云环境下的项目部署知识和基本能力。
-14、了解开源项目的协议规则和部署方法（Github）。
-
-
-
-### [python工程师 11-16K·14薪 长沙 3-5年 本科](https://www.zhipin.com/job_detail/cc2c7ef3cb0e3ef31HZ_2t64F1FT.html?ka=job_sug_7)
-
-中公教育 已上市10000人以上 在线教育
-
-- Python
-- Docker
-- MySQL
-- Linux开发/部署经验
-
-具备较好的Python开发能力，具备较好的算法基础，逻辑归纳能力；
-熟悉Linux开发环境，docker镜像管理，掌握深度学习的常用框架tensorflow/keras/pytorch优先考虑；
-有语义理解、对话系统相关实践经验者优先，有预训练大模型经验者优先.
 
 
 
