@@ -1,14 +1,30 @@
-### Git 指令使用
+### Git 指令常用
 
 #### 更新My_Library/Important_thoughts/health库
+
 ```git
 git status
+
 git add Important_thoughts/health/*
 git add Books/Psychology/*
 git add blogs/travel*
 git add "blogs/嵌入式&电子*"
 git add plan/*
 git add blogs/Git.md
+git add Important_thoughts/创业、经济、财务、政治文化相关/香港银行卡.md
+git add Important_thoughts/粤语日语*
+git add Resume_Job/面试题/*
+git add blogs/C++_study/黑马程序员匠心之作C++教程从0到1入门编程,学习编程不再难/讲义/C++核心编程.md
+git add blogs/C++_study/C++_study_note.md
+git add blogs/C++_study/ACM/ACM算法+题目.md
+git add blogs/cmake.md
+git add Important_thoughts/社交、沟通、社会/社会、生活与人.md
+git add README.md
+git add QuickOpenFileProgram.ahk
+git add TrayIcon.ahk
+git add 双拼全拼切换.bat
+git add 小鹤音形for手机搜狗百度自定义方案.txt
+git add 小鹤音形自定义短语导入.dat
 
 git status
 
@@ -17,18 +33,53 @@ git commit -m "update 嵌入式&电子"
 git commit -m "update travel dir"
 git commit -m "update plan dir"
 git commit -m "commit Git.md"
+git commit -m "upload Hong Kong card"
+git commit -m "update 粤语日语"
+git commit -m "Resume_Job面试题"
+git commit -m "C++_study"
+git commit -m "cmake"
+git commit -m "社会、生活与人"
 
 git push origin master
 ```
 
 #### [上传本地文件（夹）到GitHub和更新仓库文件](https://zhuanlan.zhihu.com/p/136355306)
 
-1. **git init** ：在此文件夹生成一个.git隐藏文件；
-2. **git add .** : 将文件添加到缓存区( 注意这个"."，是有空格的，"."代表这个test这个文件夹下的目录全部都提交，也可以通过git add 文件名 提交指定的文件)；
-3. **git status**：查看现在的状态，也可以不看，随你啦，可以看到picture文件夹里面的内容都提交上去了；
-4. **git commit -m "这里是注释"**：提交添加到缓存区的文件
-5. **git remote add origin [https://xxx](https://link.zhihu.com/?target=https%3A//xxx)@xxx/test.git** ： 添加新的git方式的origin, github上创建好的仓库和本地仓库进行关联
-6. git push origin master : 把本地库的所有内容推送到远程仓库（github）上，即上传本地文件，如果显示下图，则说明上传成功
+[对上面博客的内容修正视频。](https://www.bilibili.com/video/BV1fa4y1H7Fd?t=349.7)
+
+先在github创立一个仓库，参考上面的视频。
+
+
+
+​    0.
+> git config --global user.name "UryWu"
+
+> git config --global user.email "urywu@qq.com"
+
+1. 在此文件夹生成一个.git隐藏文件：
+> git init 
+2. 将文件添加到缓存区( 注意这个"."，是有空格的，"."代表这个test这个文件夹下的目录全部都提交，也可以通过git add 文件名 提交指定的文件)：
+> git add .
+3. 查看现在的状态，也可以不看，随你啦，可以看到picture文件夹里面的内容都提交上去了：
+> git status
+4. 提交添加到缓存区的文件：
+> git commit -m "first upload"
+5. 添加新的git方式的origin, github上创建好的仓库和本地仓库进行关联：
+> git remote add origin https://github.com/your-username/my-awesome-project.git
+>
+> 或
+>
+> git remote add origin git@github.com:UryWu/enterprise_strategy_consult_assistant.git
+git remote add origin https://github.com/UryWu/enterprise_strategy_consult_assistant.git
+
+6. 把本地库的所有内容推送到远程仓库（github）上，即上传本地文件，如果显示下图，则说明上传成功：
+> git push origin master
+
+**远程仓库地址**: `https://github.com/your-username/my-awesome-project.git`
+
+git push -u origin master
+
+
 
 **可能遇到的报错**
 
@@ -50,8 +101,6 @@ error: failed to push some refs to https://github.com/xxx/test.git
 
 #### [git命令删除缓存区（git add）的内容_zlq_csdn的博客 ](https://blog.csdn.net/zlq_CSDN/article/details/83794900)
 
-
-
 1、git rm --cached +文件名 ->这个命令不会删除物理文件，只是将已经add
 
 进缓存的文件删除。
@@ -68,15 +117,183 @@ git rm -r --cached 文件名
 
 **git status**：查看现在的状态，也可以不看，随你啦，可以看到picture文件夹里面的内容都提交上去了；
 
-
-
 ### Git
+
+#### 泄漏密码
+
+我的密码在config.yaml中
+
+##### 🔹 方法 1（较旧）：`git filter-branch`
+
+删除前，记得备份你的文件，先看git log，有三次提交：
+
+```shell
+$ git log
+commit c868a175cc1027a2dba9ed9bb157cb1f3ace2b1f (HEAD -> master, origin/master)
+Author: UryWu <1345150167@qq.com>
+Date:   Sat Oct 18 02:07:56 2025 +0800
+
+    upload config.yaml
+
+commit 28476566b9ce369147d8c525cacacf78c1e38859
+Author: UryWu <1345150167@qq.com>
+Date:   Sat Oct 18 02:05:21 2025 +0800
+
+    删除 config.json
+
+commit 95729a52539e9d76808268839e5e7ae82591b58d
+Author: urywu <urywu@qq.com>
+Date:   Sat Oct 18 01:08:35 2025 +0800
+
+    first upload
+```
+
+执行对config.yaml所有提交历史的删除：
+
+```
+git filter-branch --force --index-filter \
+"git rm --cached --ignore-unmatch config.yaml" \
+--prune-empty --tag-name-filter cat -- --all
+```
+
+推送：
+
+```shell
+git push origin --force
+```
+
+再次git log:
+
+```shell
+$ git log
+commit b3442418b41ce40d64a18e0daa44753532313219 (HEAD -> master, origin/master)
+Author: urywu <urywu@qq.com>
+Date:   Sat Oct 18 01:08:35 2025 +0800
+
+    first upload
+```
+
+只剩下一次提交，在github页面看config.yaml，已经没有这个文件了。
+
+
+
+但是之前的commit在github上还是访问得到：[link](https://github.com/UryWu/enterprise_strategy_consult_assistant/commit/95729a52539e9d76808268839e5e7ae82591b58d#diff-d8d0422389f03d783e32e627250fe29834bd09c6361640d1ff00661dd6820034)
+
+虽然它已经不属于任何repo: This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.
+
+从我的repo主页是找不到访问链接的。
+
+###### 多文件删除
+
+```shell
+git filter-branch --force --index-filter \
+"git rm --cached --ignore-unmatch main.py core\rag_policy_analyzer.py database\mongo_db.py" \
+--prune-empty --tag-name-filter cat -- --all
+```
+
+这样删除多个文件
+
+```shell
+git push origin --force
+```
+
+报错：
+
+```shell
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+```
+
+则用：
+
+```shell
+git push --set-upstream origin master --force
+```
+
+
+
+##### 🔹 方法 2（推荐但失败）：使用 `git filter-repo`（更快更安全）
+
+1. 安装（一次即可）：
+
+   ```
+   pip install git-filter-repo
+   ```
+
+2. 执行：
+
+   ```
+   git filter-repo --path secret.txt --invert-paths
+   ```
+
+   👉 这会彻底从整个历史中移除 `secret.txt` 文件。
+
+3. 然后推送：
+
+   ```
+   git push origin --force --all
+   git push origin --force --tags
+   ```
+
+#### 登录失败
+
+##### 1 修改代理：
+
+###### 方法 1：检查是否设置了 Windows 全局代理或 Git Bash 启动代理
+
+在 Git Bash 中运行：
+
+```
+env | grep -i proxy
+```
+
+如果你看到输出类似：
+
+```
+HTTP_PROXY=http://127.0.0.1:7890
+HTTPS_PROXY=http://127.0.0.1:7890
+```
+
+说明系统级代理还在生效。
+ 使用以下命令清除：
+
+```
+unset HTTP_PROXY
+unset HTTPS_PROXY
+unset http_proxy
+unset https_proxy
+```
+
+
+
+###### 方法 2：临时指定 Git 命令使用特定代理
+
+如果只想让这个命令使用你指定的代理：
+
+```
+git -c http.proxy=192.168.169.105:10809 -c https.proxy=192.168.169.105:10809 update-git-for-windows
+```
+
+##### 2 更新git:
+
+[Logon failed Even i entered the correct username and Password in git Bash?](https://stackoverflow.com/questions/67948392/logon-failed-even-i-entered-the-correct-username-and-password-in-git-bash)
+
+根据上面的博客，需要更新git：
+
+> git update-git-for-windows
+
+然后在运行`git push origin master`的登录的时候，使用浏览器授权登录。
 
 #### [常用 Git 指令](https://www.javanav.com/val/25275ed95c914a94978c7f3046533962.html)
 
-  2020-12-09
-
-<img src="Git.assets\image__20201210113653.png" alt="img"  />
+2020-12-09
+![](Git.assets/image__20201210113653.png)
 
 #### [important 十分钟学会正确的github工作流，和开源作者们使用同一套流程](https://www.bilibili.com/video/BV19e4y1q7JJ/)
 
@@ -216,7 +433,6 @@ $ git reset --hard d5d43ff
 3. 如果使用 GitLab，最好升级到付费用户。
 
 
-
 #### [形象讲解git]( https://www.zhihu.com/question/29894004/answer/46237730)
 
 **举个栗子：**你在大家上随便找了个人，看人家的衣服很漂亮。你按照别人的衣服样式，自己复制了一份(**clone**)，别人既然穿出来了，就不怕他人抄。
@@ -274,22 +490,15 @@ gitee一开始格局就比github小很多，开源之火，还没有烧起来，
 
 #### git还是svn？
 
-
-
 [ma100](https://www.zhihu.com/people/ma100)2014-09-24
-
 有一个强力领导的用git, 真正分布式开发模块用svn
 
-
-
 [leonWang](https://www.zhihu.com/people/leon2017)2016-02-18
-
 这，不好说，项目大的话git，平常的svn，毕竟svn比git上手快，不过貌似越来越多企业从svn转git了。版本控制嘛，这两个自然都要懂啊👍2
 
 ##### SVN目录权限设置好
 
 [Nate](https://www.zhihu.com/people/sdf-asdf-22)2018-02-24
-
 我也是喜欢用SVN的，SVN有很多特性Git是做不到的，比如目录权限设置，checkout子目录。另外推荐个好用的SVN仓库[http://svnbucket.com](http://link.zhihu.com/?target=http%3A//svnbucket.com)
 知乎用户2017-05-27
 作为老板，有员工离职你就知道svn其实也挺好的。。。👍3
@@ -298,16 +507,13 @@ gitee一开始格局就比github小很多，开源之火，还没有烧起来，
 
 这个跟SVN和Git关系不大。SVN一样有本地文件，只是没有log记录。他真想偷代码，记录一些重要log还是很容易的。Git一样可以分库给权限，一样可以只有几个人拥有全部代码权限。
 其实最关键的是，一定要按组分工，不要让一个人啥都干，啥都干意味着啥都知道，门清儿，这人一走代码没有秘密。国内没有版本管理工具的公司不一样可以把代码拷走么？
-
 [Bowen](https://www.zhihu.com/people/bowen1020)回复知乎用户2018-03-03
 哈哈，我明白你意思。但其实有些东西防不住的。
 
 ##### [svn和git相比的优点，我认识到的主要有三点:](https://www.zhihu.com/question/399890301/answer/1270678917)
-
 1. svn操作相对简单。
 2. svn可以只操作某个文件或者某个文件夹。
 3. svn管理二进制文件更方便。
-
 svn对于非开发人员来说，操作是相当简单的。尤其是windows上，tortoise svn里鼠标点点checkout，update，commit这几个操作就可以了。而很多开发人员对git的理解和使用是一团糟。
 
 各种文档按照目录划分好，给不同的人配置访问操作不同目录的权限，用svn是非常方便的。用git的话，需要服务器端支持，而且可能做不到文件文件夹粒度的。像gerrit，只能在仓库和分支粒度上进行权限控制。免费版的gitlab就更粗放了，不知道收费版的gitlab怎么样，还没用过。
@@ -459,13 +665,10 @@ git remote set-url origin git@github.com:UryWu/eladmin.git
 ```
 
 这里两个ssh代码源对比：
-
 ```
 git@github.com:UryWu/eladmin.git  # 这个是github原生的
 git@ssh.fastgit.org:UryWu/eladmin.git  # 是fastgit镜像加速，服务器在香港
 ```
-
-
 
 ```
 https://github.com/UryWu/eladmin.git  # 这是https代码源
@@ -485,30 +688,21 @@ and the repository exists.
 
 最好使用github原生的代码源。
 
-
-
 ##### [solution4 token:](https://blog.csdn.net/qq_43382853/article/details/119221234)
 
 [github令牌验证（密码验证将要失效）](https://blog.csdn.net/qq_43382853/article/details/119221234)
 
 于 2021-07-29 21:42:20 发布
 
-
-
-
-
 ##### 参考命令：
-
 [Linux 系统查看代理，关闭代理](https://blog.csdn.net/weixin_44984664/article/details/108028704)
 
 查看代理
-
 ```shell
 env|grep -i proxy
 ```
 
 关闭代理
-
 ```shell
  export http_proxy=""
  export https_proxy=""
@@ -517,37 +711,36 @@ env|grep -i proxy
 ```
 
 开启代理
-
 ```shell
  export http_proxy="http://192.168.2.14:7890"
  export https_proxy="http://192.168.2.14:7890"
  export HTTP_PROXY="http://192.168.2.14:7890"
  export HTTPS_PROXY="http://192.168.2.14:7890"
 ```
-
-
-
-
-
-
-
 #### 不要用 git push --force
 
 1、[git push --force-with-lease](https://blog.csdn.net/wpwalter/article/details/80371264)（中文）
 
 不要用 git push --force，而要用 git push --force-with-lease 代替。在你上次提交之后，只要其他人往该分支提交给代码，git push --force-with-lease 会拒绝覆盖。
 
-
-
 #### [互联网公司用Git还是SVN多呢？](https://www.zhihu.com/question/67044963)
-
-
 
 #### [如何在github上提交PR(Pull Request)](https://cloud.tencent.com/developer/article/1999727)
 
+#### SSH 密钥
+##### [使用 SSH 密钥密码](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases#adding-or-changing-a-passphrase)
 
+添加或更改密码
+通过输入以下命令，您可以更改现有私钥的密码而无需重新生成密钥对：
 
-#### ssh忘记密码
+>ssh-keygen -p -f ~/.ssh/id_ed25519
+> Enter old passphrase: [Type old passphrase]
+> Key has comment 'your_email@example.com'
+> Enter new passphrase (empty for no passphrase): [Type new passphrase]
+> Enter same passphrase again: [Repeat the new passphrase]
+> Your identification has been saved with the new passphrase.
+
+##### ssh忘记密码
 
 先把github上我的ssh key删掉：
 
@@ -555,7 +748,7 @@ env|grep -i proxy
 
 <img src="Git.assets/image-20230324102631944.png" alt="image-20230324102631944" style="zoom: 50%;" />
 
-打开C:\Users\UryWu\.ssh，在这里打开一个cmd窗口，输入：
+打开`C:\Users\UryWu\.ssh`，在这里打开一个cmd窗口，输入：
 
 `ssh`
 
@@ -567,15 +760,7 @@ env|grep -i proxy
 
 #### [**Git 的奇技淫巧 简单指令与解释**](https://hellogithub.com/article/9aed28d4d64b4649bb364685ef557ae4)
 
-
-
 #### [git-sim repo可视化](https://github.com/initialcommit-com/git-sim#git-sim)
-
-
-
-
-
-### [使用 SSH 密钥密码](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases#adding-or-changing-a-passphrase)
 
 ### svn
 
@@ -623,10 +808,7 @@ SVN仓库
 匿名用户2010.01.09 
 freebsd的协议好像是自由使用的吧，不要求公开源码的，苹果os也是基于freebsd内核做的界面，同样不公开源代码。如果麒麟真的是如文中所说那样，顶多只能算是抄袭，而不是侵权
 
-
-
 企业侵犯开源软件很危险
-
 上面列出的三个事件，只是冰山一角，企业主体都是大型的软件公司，包括互联网NO1的腾讯，还有国防科技大学。应该说对于软件的版权和知识产权都是相当的了解，还记得腾讯起诉珊瑚虫版QQ作者陈寿福吗？企业侵犯开源软件是相当危险的，采用GPL许可证的开源软件，在国际上有很多胜诉案例。
 
 2009年9月22日在巴黎AFPA上诉法院裁决EDU4公司违反了GNU GPL协议，在分发软件时只提供了二进制文件，而拒绝提供源代码。这个诉讼是法国的一个教育组织AFPA提出的。在2000年，AFPA从Edu4那里购买了新的课堂使用的计算机设备。不久，AFPA发现随设备分发的一个使用GPL 协议的VNC软件。但是经过多次交涉，Edu4拒绝提供这个版本VNC的源代码，同时Edu4在被发现后，还删除了软件中的版权与许可声明。这些行为都违反了GPL许可条款的规定。
