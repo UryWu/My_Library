@@ -73,7 +73,7 @@ claude --version
 "hasCompletedOnboarding":true
 ```
 
-
+这个方法来源：[配置好 setting.json 文件之后，Claude任然要求登录？怎么办？](https://github.com/farion1231/cc-switch/issues/404)
 
 ### 打开claude
 
