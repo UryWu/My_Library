@@ -93,17 +93,46 @@ C:\Users\UryWu\AppData\Local\Programs\CC Switch\
 C:\Users\UryWu\AppData\Local\Programs\CC Switch\cc-switch.exe
 ```
 
-打开CC-Switch后，按照视频的步骤添加deepseek的api key。
+打开CC-Switch后，按照视频的步骤添加deepseek的api key，[视频时间戳：](https://www.bilibili.com/video/BV19vc5zUEeQ?t=380.5)。
 
 再次打开claude后，不显示未登录红色Not logged in提示。
+
+### 查看api key配置文件
+
+配置文件在：`C:\Users\UryWu\.claude`目录里面。
+
+
+
+`C:\Users\UryWu\.claude\settings.json`里面是刚刚配置好的deepseek设置：
+
+```json
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "<api_key>",
+    "ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "DeepSeek-V3.2",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "DeepSeek-V3.2",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "DeepSeek-V3.2",
+    "ANTHROPIC_MODEL": "DeepSeek-V3.2"
+  },
+  "includeCoAuthoredBy": false
+}
+
+```
+
+
+
+`C:\Users\UryWu\.claude\envs.json`里面则是VS Code里面的Claude Code插件默认提供的大模型api默认可选择的4个配置：
+
+Anthropic 官方配置、智谱 AI GLM 模型、Kimi API、MiniMax API
+
+
 
 ### [在vs code中使用claude code](https://www.bilibili.com/video/BV19vc5zUEeQ?t=487.6)
 
 在vs code中搜索插件：Claude Code for VS Code
 
 注意发布者是：Anthropic anthropic.com
-
-
 
 
 
