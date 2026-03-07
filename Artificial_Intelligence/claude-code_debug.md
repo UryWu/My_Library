@@ -37,7 +37,7 @@ C:\Users\UryWu>nvm list
 安装claude-code 2.0
 
 ```shell
-npm uninstall -g claude-code-router
+npm install -g @anthropic-ai/claude-code
 ```
 
 查看当前node环境安装的所有包：
@@ -59,7 +59,15 @@ E:\nodejs -> .\
 `-- yarn@1.22.22
 ```
 
-往[.claude.json](C:\Users\UryWu\.claude.json)里面的最后增加配置项：
+查看claude版本：
+
+```shell
+claude --version
+```
+
+
+
+往[.claude.json](C:\Users\UryWu\.claude.json)里面的最后增加配置项，注意逗号隔开：
 
 ```json
 "hasCompletedOnboarding":true
