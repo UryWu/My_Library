@@ -1,3 +1,31 @@
+# 更换venv用的python
+
+打开`<项目根目录>.venv\pyvenv.cfg`
+
+```
+home = G:\softwares\Python312
+implementation = CPython
+uv = 0.10.8
+version_info = 3.12.10
+include-system-site-packages = false
+prompt = claude_code_go_game
+```
+
+改为其他python：
+
+```
+home = G:\softwares\Python\cpython-3.12-windows-x86_64-none
+implementation = CPython
+uv = 0.10.8
+version_info = 3.12.13
+include-system-site-packages = false
+prompt = claude_code_go_game
+```
+
+
+
+# 克隆venv
+
 在 **uv** 里，一般**不建议“克隆 venv”**。
 uv 的设计理念是：**环境是可重建的，而不是复制的**。
 
@@ -15,7 +43,7 @@ uv.lock  →  重建 venv
 
 ------
 
-# ⭐ 标准做法（推荐）
+## ⭐ 标准做法（推荐）
 
 如果你已经有：
 
@@ -40,9 +68,9 @@ uv 会：
 
 ------
 
-# ⭐ 如果想“复制环境”
+## ⭐ 如果想“复制环境”
 
-## 方法1：复制项目（推荐）
+### 方法1：复制项目（推荐）
 
 ```
 projectA/
@@ -67,7 +95,7 @@ uv 会检查 `.venv` 是否一致。
 
 ------
 
-## 方法2：用 requirements 导出
+### 方法2：用 requirements 导出
 
 ```bash
 uv pip freeze > requirements.txt
@@ -83,7 +111,7 @@ uv pip install -r requirements.txt
 
 ------
 
-# ⭐ 如果你真的想复制 `.venv`
+## ⭐ 如果你真的想复制 `.venv`
 
 可以直接：
 
@@ -101,7 +129,7 @@ cp -r .venv new_project/.venv
 
 ------
 
-# ⭐ uv 的真正“克隆环境”方法
+## ⭐ uv 的真正“克隆环境”方法
 
 实际上是：
 
@@ -128,7 +156,7 @@ uv.lock = 环境快照
 
 ------
 
-# ⭐ 一个很多人不知道的 uv 技巧
+## ⭐ 一个很多人不知道的 uv 技巧
 
 你可以在 **多个项目共享缓存**：
 
