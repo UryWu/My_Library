@@ -11,7 +11,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 ```
 
 
-这会下载 3 个 exe 文件到路径 C:\Users\Administrator\.local\bin 下
+这会下载 3 个 exe 文件到路径 `C:\Users\Administrator\.local\bin` 下
 
 uv.exe
 uvx.exe

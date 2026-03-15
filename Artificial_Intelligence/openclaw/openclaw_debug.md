@@ -1,4 +1,83 @@
-### openclaw
+### [OpenClaw最新版（3月7日版本）Windows本地电脑部署教程](https://cloud.tencent.com/developer/article/2635269)
+
+发布于 2026-03-08 21:11:47
+
+
+
+注意Node版本 >=22。
+
+#### 二、安装OpenClaw
+
+打开Windows系统的CMD命令窗口，执行如下命令进行安装：
+1、执行安装命令
+
+```shell
+npm install -g openclaw@latest
+```
+
+#### 三、启动命令行配置
+
+```shell
+openclaw onboard --install-daemon
+```
+
+当前设置：
+
+工作目录：G:\Projects\projects_ai\openclaw_workspace
+
+Default model set to qwen-portal/coder-model
+
+Gateway port  18789
+
+Gateway bind  > Loopback (127.0.0.1)
+
+
+
+所有设置都在：`C:\Users\UryWu\.openclaw\openclaw.json`
+
+
+
+#### [OpenClaw飞书官方插件上线｜一文讲清功能、安装更新教程与常见问题！](https://www.feishu.cn/content/article/7613711414611463386)
+
+连接飞书的教程看这个也可：[OpenClaw中文社区连接飞书](https://clawd.org.cn/channels/feishu)
+
+需要在[飞书开放平台](https://open.feishu.cn/app/cli_a925cbff52badbc0/baseinfo)设置应用。
+
+
+
+[飞书配置说明参考](https://clawd.org.cn/channels/feishu#%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E7%A4%BA%E4%BE%8B)
+
+**配置说明**：
+
+- `appId` / `appSecret`：替换为您在飞书开放平台获取的凭证
+- `allowFrom`：私聊白名单，填写允许私聊的用户 Open ID
+- `groupAllowFrom`：群组白名单，填写允许在群组中使用的用户 Open ID
+- `groups`：针对特定群组的配置，键为群组 ID（`oc_xxx`）
+- `workspace`：Agent 的工作目录
+
+
+
+#### [OpenClaw中文社区连接钉钉](https://clawd.org.cn/channels/dingtalk-connector.html)
+
+### bat钉钉消息推送
+
+```
+@echo off
+chcp 65001
+
+set HOST=%COMPUTERNAME%
+set MSG=%*
+
+curl "https://oapi.dingtalk.com/robot/send?access_token=" ^
+-H "Content-Type: application/json" ^
+-d "{\"msgtype\":\"text\",\"text\":{\"content\":\"Messages：%MSG% \nfrom: %HOST% %date% %time%\"}}"
+```
+
+
+
+
+
+### openclaw linux安装
 
 [Clawdbot（Openclaw）安装与接入飞书、deepseek教程](https://zhuanlan.zhihu.com/p/2001383801151058763)
 
@@ -12,11 +91,17 @@ mv OpenClaw /mnt/g/Projects/projects_ai/openclaw
 
 本机位置：
 
+WSL路径：
+
 /mnt/g/Projects/projects_ai/openclaw
+
+对应的windows路径：
 
 G:\Projects\projects_ai\openclaw
 
+已经迁移到
 
+F:\Files\My_Library\Artificial_Intelligence\openclaw
 
 #### 安装后
 
@@ -296,3 +381,5 @@ npm list -g --depth=0
 ---
 
 所以总结来说，你的 **OpenClaw 安装在 nvm 的版本特定目录中**，这是完全正常的 nvm 使用方式！🎯
+
+1
