@@ -112,13 +112,27 @@ ALTER USER postgres PASSWORD '你的新密码';
 
 ### 9 创建数据库
 
+在命令行cmd里面创建数据库：
 
+```bash
+createdb -U postgres -O postgres -E UTF8 data_cards_database
 
-创建数据库：
-
+# 删除数据库
+dropdb -U postgres data_cards_database
 ```
+
+
+
+在postgres=#终端里面创建数据库：
+
+```sql
 CREATE DATABASE data_cards_database;
+
+# 删除数据库
+DROP DATABASE data_cards_database;
 ```
+
+
 
 退出：
 

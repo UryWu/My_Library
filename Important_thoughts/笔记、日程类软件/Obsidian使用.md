@@ -106,7 +106,6 @@ Obsidian 自带的块引用除了可以通过 `[[]]` 中先输入笔记后再�
 
 ### 1.5 [提升/降低标题](https://forum.obsidian.md/t/promote-demote-all-selected-headers/25799/2)
 
-
 [obsidian-heading-shifter](https://github.com/k4a-l/obsidian-heading-shifter)
 
 
@@ -989,11 +988,23 @@ path:blogs/projects_docs  硅基流动
 
 
 
-经常用的两个插件：
+#### 经常用的几个插件：
 
-`F:\Files\My_Library\plan\.obsidian\plugins\number-headings-obsidian`
+自动生成标题数字前缀：
 
-`F:\Files\My_Library\plan\.obsidian\plugins\Quiet Outline`
+`F:\Files\My_Library\.obsidian\plugins\number-headings-obsidian`
+
+美化大纲：
+
+`F:\Files\My_Library\.obsidian\plugins\Quiet Outline`
+
+ctrl+shift+↑↓批量调节标题层级：
+
+`F:\Files\My_Library\.obsidian\plugins\obsidian-heading-shifter`
+
+#### 快捷键设置脚本：
+
+`F:\Files\My_Library\.obsidian\hotkeys.json`
 
 
 
@@ -1004,4 +1015,4 @@ path:blogs/projects_docs  硅基流动
 
 解决方案是，直接运用ob的特色功能：反向链接
 我建立一个独立的文件夹，作为我的知识体系的目录文件夹，当我需要去查看知识知识体系下某个条目的内容时，我只需要打开对应的笔记，再查看其反射链接即可
-比如，我在知识体系里建立“历史”的笔记，再点开这条笔记，查看反向链接，就可以看到所有包含“历史”字眼的笔记了
+比如，我在知识体系里建立“历史”的笔记，再点开这条笔记，查看反向链接，就可以看到所有包含“历史”字眼的笔记了i
