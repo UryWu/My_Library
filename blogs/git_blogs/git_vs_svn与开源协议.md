@@ -1,7 +1,5 @@
 # Git vs SVN 与开源协议
 
-> 来源：合并自 [blogs/git_blogs/Git.md](Git.md) 与 [blogs/git_blogs/git_study.md](git_study.md) 的「git 还是 svn」+「gitee vs github」+「SVN 使用教程」+「最近几年的国内开源软件侵权事件」+「一张图看懂开源协议的区别」+「互联网公司用 Git 还是 SVN 多」六节。
-
 团队选 Git 还是 SVN？选 Gitee 还是 GitHub？开源协议怎么选？这一篇把"工具选型 + 协议"两块一次讲清。
 
 ---

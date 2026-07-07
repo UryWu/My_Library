@@ -1,7 +1,5 @@
 # Git 基本命令与初始化
 
-> 来源：合并自 [blogs/git_blogs/Git.md](Git.md) 与 [blogs/git_blogs/git_study.md](git_study.md)。
-
 本篇汇总"建仓库 → 提交 → 推上去"全流程用的基本命令，以及日常最频繁的几条（status / add / commit / push / rm --cached）。
 
 ---

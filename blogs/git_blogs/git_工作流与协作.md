@@ -1,7 +1,5 @@
 # Git 工作流与协作
 
-> 来源：合并自 [blogs/git_blogs/Git.md](Git.md) 与 [blogs/git_blogs/git_study.md](git_study.md) 的「十分钟学会 GitHub 工作流」+「如何在 GitHub 提交第一个 pull request」+「Git 三大分区」+「形象讲解 git」+「`.gitignore` 缓存」+「DNS 污染导致图片不显示」六节。
-
 多人协作的核心套路：fork → clone → 分支开发 → push → PR → 合并 → 清理。本篇把这条主链路串起来。
 
 ---

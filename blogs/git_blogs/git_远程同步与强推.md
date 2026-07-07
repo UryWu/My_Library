@@ -1,7 +1,5 @@
 # Git 远程同步与强推
 
-> 来源：合并自 [blogs/git_blogs/Git.md](Git.md) 的「登录失败 / bug1: git push 报错」+ [blogs/git_blogs/git_study.md](git_study.md) 的「登录失败 / 远端领先本地，强制提交落后的本地到远端」+「不要用 git push --force」三节。
-
 `git push` 报错有十几种姿势，本篇汇总最常踩的几类坑：**登录失败、代理、SSH 改用、token、强推**。
 
 ---

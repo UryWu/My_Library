@@ -1,7 +1,5 @@
 # Git 中文与文件操作
 
-> 来源：[blogs/git_blogs/git_study.md](git_study.md) 的「让 Git 直接显示中文而不是八进制数字」+「重命名文件提交」+「`.gitignore` 缓存」三节。
-
 中文文件名、八进制编码、重命名、删除文件——这些是日常 `git status` 里最容易让人"看不懂到底发生了什么"的几件事。
 
 ---

@@ -1,7 +1,5 @@
 # Git 资料速查
 
-> 来源：[blogs/git_blogs/Git.md](Git.md) 与 [blogs/git_blogs/git_study.md](git_study.md) 的「Git 常用指令 / Git 奇技淫巧 / git-sim / 常用 Git 指令」+「IDEA 中集成 Git」等速查性质的小节。
-
 本篇只放"收藏夹"性质的内容——常用的 cheat sheet、可视化工具、集成教程。
 
 ---
@@ -12,7 +10,6 @@
 2. [Git 的奇技淫巧](#git-的奇技淫巧)
 3. [git-sim：repo 可视化](#git-simrepo-可视化)
 4. [IDEA 中集成 Git](#idea-中集成-git)
-5. [常用 Git 指令参考图](#常用-git-指令参考图)
 
 ---
 
@@ -158,14 +155,6 @@ git-sim commit -m "xxx"
 
 - 2021-08-13 起，**IDEA 用 HTTPS 推送会要求 Personal Access Token**（用户名 + 密码已失效）
 - 建议改成 SSH 远端 URL，避免每次输入 token
-
----
-
-## 常用 Git 指令参考图
-
-参考：[常用 Git 指令图](https://www.javanav.com/val/25275ed95c914a94978c7f3046533962.html)
-
-> ⚠️ 原图 `image__20201210113653.png` 在仓库中已丢失（原 `Git.md` 里就有这引用，但 `Git.assets/` 下找不到文件），这里删除引用，留链。
 
 ---
 

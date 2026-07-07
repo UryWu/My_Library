@@ -1,7 +1,5 @@
 # Git 泄漏与安全
 
-> 来源：合并自 [blogs/git_blogs/Git.md](Git.md) 与 [blogs/git_blogs/git_study.md](git_study.md) 的「泄漏密码」+「SSH 密钥」+「密码泄漏到 GitHub 会发生什么」三节。
-
 不小心把密钥推到公共仓库怎么办？SSH key 怎么改密码？这两件事虽然小但出错代价大，留个档。
 
 ---

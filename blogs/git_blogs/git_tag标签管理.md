@@ -1,7 +1,5 @@
 # Git Tag 标签管理
 
-> 来源：[blogs/git_blogs/git_study.md](git_study.md) 的「tag 和代码是完全不相关的两条路径」+「打 tag 时自动附加到本地最新的 commit」两节。
-
 发版时离不开 tag，但很多人把 tag 当分支用，或者忘了 `git push` 默认不带 tag——这篇文章把这两件事一次讲清楚。
 
 ---
