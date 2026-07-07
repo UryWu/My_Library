@@ -6,9 +6,14 @@ commit a70cda3eae87e68f30b2c26af15a493239e5c341 (HEAD -> master, origin/master)
 
 这里master是远端还是origin/master是远端？
 
-![image-20260308060236359](./git_diff_study.assets/image-20260308060236359.png)
+<span style="color: #00ffff">UryWu@MacBookPro</span> <span style="color: #00ff00">MINGW64</span> <span style="color: #0000ff">/f/Files/My_Library</span> (<span style="color: #00ff00">master</span>)
+$ git log
+commit <span style="background-color: #ffff00; color: #000000">a70cda3eae87e68f30b2c26af15a493239e5c341</span> (<span style="color: #00ffff">HEAD</span> -> <span style="color: #00ff00">master</span>, <span style="color: #ff0000">origin/master</span>)
+Author: UryWu &lt;urywu@qq.com&gt;
+Date:   Sun Mar 8 04:54:20 2026 +0800
 
-
+    1、测试
+    2、测试
 
 在 **Git** 里：
 
