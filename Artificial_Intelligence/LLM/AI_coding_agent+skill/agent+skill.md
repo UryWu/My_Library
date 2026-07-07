@@ -204,7 +204,7 @@ skill写提示词，mcp-server作为工具。
 1. Run the following command in the terminal (not in Claude Code CLI) 在claude code终端中运行:
 
 ```shell
-claude mcp add-json github '{"type":"http","url":"https://api.githubcopilot.com/mcp","headers":{"Authorization":"Bearer YOUR_GITHUB_PAT"}}'
+claude mcp add github '{"type":"http","url":"https://api.githubcopilot.com/mcp","headers":{"Authorization":"Bearer YOUR_GITHUB_PAT"}}'
 ```
 
 #### 2 Set GitHub Personal Access Token
@@ -214,21 +214,22 @@ claude mcp add-json github '{"type":"http","url":"https://api.githubcopilot.com/
 ![[Pasted image 20260316065438.png]]
 
 注意在下面把仓库权限改成所有仓库：
-![[Pasted image 20260316065552.png]]
+![Pasted image 20260316065552.png](agent+skill.assets/Pasted image 20260316065552.png)
 
 [视频时间戳：](https://www.bilibili.com/video/BV1HuiyBQE9G?t=832.3)
 在下面的permission里面，我们找到这个管理员的，还有一个内容的：
-![[Pasted image 20260316065527.png]]
-![[Pasted image 20260316065621.png]]
+![Pasted image 20260316065527.png](./agent+skill.assets/Pasted image 20260316065527.png)
+![Pasted image 20260316065621.png](./agent+skill.assets/Pasted image 20260316065621.png)
 
 我们把这两个权限都弄成读写，然后点击创建：
-![[Pasted image 20260316065740.png]]
+![Pasted image 20260316065740.png](./agent+skill.assets/Pasted image 20260316065740.png)
 
 把这个API可以复制下来，填写到命令里面：
-![[Pasted image 20260316065820.png]]
+![Pasted image 20260316065820.png](./agent+skill.assets/Pasted image 20260316065820.png)
 这样回车，我们github的MCP server就安装完成了。
+
 ```shell
-claude mcp add-json github '{"type":"http","url":"https://api.githubcopilot.com/mcp","headers":{"Authorization":"Bearer github_pat_xxxxxxxxxxx"}}'
+claude mcp add github '{"type":"http","url":"https://api.githubcopilot.com/mcp","headers":{"Authorization":"Bearer github_pat_xxxxxxxxxxx"}}'
 ```
 #### 3 skill中写后续上传结果文档处理：
 ```markdown
@@ -246,8 +247,15 @@ skill写提示词，mcp-server作为工具。
 ```
 
 ```shell
-claude mcp add-json github '{"type":"http","url":"https://api.githubcopilot.com/mcp","headers":{"Authorization":"Bearer github_pat_xxxxxxxxxx"}}'
+claude mcp add github '{"type":"http","url":"https://api.githubcopilot.com/mcp","headers":{"Authorization":"Bearer github_pat_xxxxxxxxxx"}}'
 ```
+
+output:
+```bash
+Added stdio MCP server github with command: '{type:http,url:https://api.githubcopilot.com/mcp,headers:{Authorization:Bearer github_pat_xxx}}'  to local config
+File modified: C:\Users\UryWu\.claude.json [project: C:\Users\UryWu\Desktop\Shortcuts]
+```
+
 #### 评论
 
 #### memory、MCP、SKILL、subagent、claude.md、plug功能冗余

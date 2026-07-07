@@ -1,3 +1,27 @@
+
+
+
+
+## [为什么你的Agent总翻车？Harness Engineering全拆解：Anthropic、OpenAI、DeepMind都在押注的Agent Runtime](https://www.bilibili.com/video/BV1VBX9BrEon/)
+
+2026-03-29 23:09:05
+
+ 本期内容：                                                             
+ - Harness Engineering 是什么？马具隐喻与技术定义        
+ - Prompt → Context → Harness 三层演进关系                                              
+ - 为什么在 2025 底-2026 初集中爆发
+ - Anthropic 三 Agent 架构与生成-评估分离实践                                            
+ - OpenAI 7 人团队百万行代码背后的三大支柱                                              
+ - Google DeepMind Aletheia 的 Generator-Verifier-Reviser 循环
+ - Vercel「砍掉 80% 工具反而更好」的反直觉经验                                            
+ - 六大核心模块归纳 + 风险与争议  
+
+更多前沿AI课程与学习资源请关注：
+🌐 官方网站：TGLTommy.com(访问需科学上网)
+📺 B站/公众号/YouTube：唐国梁Tommy
+
+
+
 ## [浅谈上下文工程｜从 Claude Code 、Manus 和 Kiro 看提示工程到上下文工程的转变](https://zhuanlan.zhihu.com/p/1968696669328635186)
 
 发布于 2025-11-12 12:05・浙江
