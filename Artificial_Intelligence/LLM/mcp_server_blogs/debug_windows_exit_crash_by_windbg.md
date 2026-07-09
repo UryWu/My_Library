@@ -55,7 +55,11 @@ uv pip install mcp-windbg
 | 文件清单 | `__init__.py` / `__main__.py`（入口）/ `cdb_session.py`（cdb 进程管理）/ `filter_script.py`（输出过滤）/ `server.py`（MCP 主体）/ `prompts/` / `tests/` |
 | 传递依赖 | `mcp`、`pydantic`、`starlette`、`uvicorn`（自动装上） |
 
+> ⚠️ **`uv pip install` ≠ 注册 MCP server**。`uv pip install mcp-windbg` 只是把 Python 包装进 `.venv`，**不会**动 `~/.claude.json`，更不会让 Claude Code 出现 `mcp__mcp-windbg__*` 工具。要让 Claude 能调它，必须再做 3.2.2 那步。
+
 #### 3.2.2 注册为 Claude Code MCP server
+
+注册是**独立动作**：把 server 的启动方式写到 Claude Code 自己的配置里。最干净的方式是 `claude mcp add`：
 
 ```bash
 claude mcp add mcp-windbg -s user \
@@ -63,6 +67,8 @@ claude mcp add mcp-windbg -s user \
   -- python -m mcp_windbg \
   --cdb-path "E:\\Windows Kits\\10\\Debuggers\\x64\\cdb.exe"
 ```
+
+> 也可以手动编辑 `~/.claude.json`，往 `mcpServers` 里加一段（效果等价，详见 3.2.3）。本次用的是手动写法。
 
 参数含义：
 
@@ -525,7 +531,7 @@ model 引用的 CTranslate2 句柄、CUDA context、ThreadPool 跟进程地址�
 | **cdb.exe** | 命令行调试器（必装） | WinDBG / Debugging Tools for Windows |
 | **windbg.exe** | GUI 调试器（可选） | 同上 |
 | **WER LocalDumps** | 自动在崩溃时写 dump | 注册表配置（见 3.3 节） |
-| **mcp-windbg** | 把 cdb 接入 Claude Code | `uv pip install mcp-windbg` + `claude mcp add` |
+| **mcp-windbg** | 把 cdb 接入 Claude Code | 1) `uv pip install mcp-windbg`（装包）<br>2) `claude mcp add mcp-windbg ...`（注册到 `~/.claude.json`）<br>两步缺一不可 |
 | **VS + Python native debug** | 调试 Python C 扩展源码 | 复杂，多数情况用不到 |
 
 ### 9.4 cdb 常用命令速查
