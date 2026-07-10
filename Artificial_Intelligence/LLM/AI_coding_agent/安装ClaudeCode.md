@@ -121,6 +121,8 @@ linux平台：`~/.claude/settings.json`
 
 CLAUDE_CODE_AUTO_COMPACT_WINDOW必须设置为1000000才能让claude code使用模型的1m上下文能力，不然MiniMax-M3默认为512k的上下文调用，[参见](https://platform.minimaxi.com/docs/token-plan/claude-code#%E6%89%8B%E5%8A%A8%E7%BC%96%E8%BE%91%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%EF%BC%88%E6%8E%A8%E8%8D%90%EF%BC%89)。
 
+##### [api价格](https://platform.minimaxi.com/docs/guides/pricing-paygo)
+
 MiniMax-M3默认512k费用比MiniMax-M3[1m]低。
 
 | 模型                                     | 输入价格（百万 tokens） | 输出价格（百万 tokens） | 缓存读取（百万 tokens） |
@@ -148,6 +150,17 @@ MiniMax-M3默认512k费用比MiniMax-M3[1m]低。
 ```
 
 DeepSeek-v4-pro默认使用1m上下文。
+
+##### [api价格](https://api-docs.deepseek.com/quick_start/pricing/)
+
+根据2026年7月10日中国人民银行公布的汇率中间价，1美元约等于**6.7989元人民币**，[人民币换算汇率参考](https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026071009003741941/index.html)。
+
+| 模型                  | 输入价格（人民币/百万tokens） | 输出价格（人民币/百万tokens） | 缓存读取（人民币/百万tokens） |
+| :-------------------- | :---------------------------- | :---------------------------- | :---------------------------- |
+| **DeepSeek-V4-Flash** | **¥0.95**                     | **¥1.90**                     | **¥0.019**                    |
+| **DeepSeek-V4-Pro**   | **¥2.96**                     | **¥5.92**                     | **¥0.025**                    |
+
+
 
 ### 方法2 使用CC-Switch
 
