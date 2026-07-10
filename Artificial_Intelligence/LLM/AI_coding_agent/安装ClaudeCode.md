@@ -141,15 +141,24 @@ MiniMax-M3默认512k费用比MiniMax-M3[1m]低。
     "ANTHROPIC_AUTH_TOKEN": "sk-xxxxxxxxxxx",
     "API_TIMEOUT_MS": "3000000",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
-    "ANTHROPIC_MODEL": "DeepSeek-v4-pro",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL": "DeepSeek-v4-pro",
-    "ANTHROPIC_DEFAULT_OPUS_MODEL": "DeepSeek-v4-pro",
-    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "DeepSeek-v4-pro"
+    "ANTHROPIC_MODEL": "DeepSeek-v4-pro[1m]",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "DeepSeek-v4-pro[1m]",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "DeepSeek-v4-pro[1m]",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "DeepSeek-v4-pro[1m]"
   },
 }
 ```
 
-DeepSeek-v4-pro默认使用1m上下文。
+官网虽然说DeepSeek-v4-pro默认使用1m上下文，但是还是需要这样配置DeepSeek-v4-pro[1m]，在claude code里面输入/context的时候，token统计才会显示1m的上下文统计：
+
+```bash
+Context usage
+
+DeepSeek-v4-pro[1m]
+19.8k / 1.0M tokens (2%)
+```
+
+
 
 ##### [api价格](https://api-docs.deepseek.com/quick_start/pricing/)
 
