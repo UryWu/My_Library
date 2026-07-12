@@ -232,8 +232,6 @@ SELECT 字段名1, 字段名2 FROM data_cards;
 
 
 
-
-
 ### **总结**
 
 CentOS 7 上安装 PG 官方包必须：
