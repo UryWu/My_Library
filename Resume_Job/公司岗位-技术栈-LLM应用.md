@@ -1,3 +1,143 @@
+
+
+### [Agent开发工程师20-30K](https://www.zhipin.com/job_detail/e8a0a4f37a1832c00nJ70t29F1tX.html?securityId=UNrAkBy89UkAD-a1NQis76svaqGAtB_QbUMmO3S2v4t67Sg_4BJAuoa8dxmAoyKoZaQz46q777PPf_NAuvzEak0y8xKedA68fbnFeFX07t73xG5jJHd1IKHxVu0levhOfLuNAEg_LVVBqZfI8IsKiVFGib59jpYUhBQyG1W3fr4qbbZR4uAg3wpPtaQ5cKMk7dgLj3nUQoJzRckYY_CFgA1xLj16jxrAmJtIGP3s95Bt_kWzhFMKQHJuC1fDbjlQbIVcX7pY33h_mKCRgb9q4S9uaUag3chMlqD9ep8sgL1uYHNE2cHa9l_niGADKz0ngaLQ0HXHWBEivlvcL4iEoKcCSwLz8FDrLeiAsDC-N9z4bnkXW1Sey2-90DuewOpBvTOZ1YDam-rqgcTQncQpBv9t3DH5NQJWfaiw&ka=company_more_job_e8a0a4f37a1832c00nJ70t29F1tX)
+
+湖南君领科技有限公司
+未融资·20-99人·计算机软件
+
+长沙开福区湘域智慧414
+
+**职位详情**  
+Python  
+该岗位Base公司北京研发中心  
+
+**岗位职责**  
+1. 负责垂直领域Agent的需求分析、技术方案设计、功能开发、测试部署和持续优化，完成从业务场景梳理到Agent应用交付的完整闭环。  
+2. 将本体语义平台中的业务对象、属性、关系、状态、规则、指标、流程和领域知识接入Agent，提升Agent对业务语义和业务上下文的理解能力。  
+3. 负责Agent的意图识别、任务拆解、执行规划、上下文管理、记忆管理、工具调用、结果校验和异常处理等核心能力建设。  
+4. 基于LangChain、LangGraph、AutoGen、CrewAI、LlamaIndex、DeepAgents等框架，设计和开发单Agent、多Agent协同及人机协同工作流。  
+5. 基于RAG、知识图谱、向量检索、全文检索和结构化数据查询等技术，构建融合本体、业务数据和非结构化知识的检索与推理能力。  
+6. 基于Function Calling、MCP等技术，将对象查询、关系分析、规则判断、知识检索、指标计算和业务动作封装为标准化Agent工具与技能。  
+7. 负责Agent与知识库、数据库、文档系统、业务系统接口及第三方服务的集成，建立统一、受控、可扩展的能力调用机制。  
+8. 建设Agent权限校验、人工确认、调用审计、结果溯源和证据引用机制，降低模型幻觉、工具误调用和越权执行风险。  
+9. 建立Agent效果评测和持续优化机制，提升知识检索准确率、工具调用成功率、任务完成率、业务处理准确率和系统稳定性。  
+10. 与产品经理、领域专家、本体工程师、算法工程师、数据工程师及后端开发人员协同，解决项目落地过程中的业务理解、知识准确性和系统集成问题。  
+11. 将项目中形成的Agent、工具、技能、Prompt、工作流和领域知识处理能力沉淀为平台通用组件，支持不同垂直领域快速复用。  
+12. 跟踪大模型、Agent、RAG、本体、知识图谱、MCP及多模态应用等技术方向，开展技术调研、原型验证和工程落地。  
+
+**任职要求**  
+1. 本科以上学历，计算机、人工智能相关专业，具有3年以上大模型智能体/Agent开发经验。  
+2. 精通Python，具备良好的软件工程基础，能够独立完成Agent系统的设计、开发、调试、测试和部署。  
+3. 熟练使用Claude Code、OpenAI Codex、Cursor、Trae等至少一种AI编程工具，具备较强的Vibe Coding实践能力。  
+4. 熟练掌握LangChain、LangGraph、AutoGen、CrewAI、LlamaIndex、DeepAgents等至少一种Agent开发框架，具备实际项目经验。  
+5. 熟悉Agent架构设计，掌握任务规划、子任务拆解、ReAct、工具调用、记忆管理、多Agent协同和结果校验等常用机制。  
+6. 熟练掌握Prompt Engineering、RAG、Embedding、向量检索和知识库问答等技术，熟悉Milvus、Pinecone、Chroma、FAISS、Elasticsearch等至少一种检索组件。  
+7. 熟悉Claude、Gemini、GPT、Grok、Deepseek、GLM、Qwen等主流大模型，具备模型API对接、Function Calling、MCP开发和集成经验。  
+8. 熟悉FastAPI、Docker、Git、Linux及常用接口开发技术，具备良好的业务理解、系统设计、问题排查和跨团队协作能力。  
+9. 有本体、知识图谱、GraphRAG、图数据库、OWL、OPM、复杂工作流、多Agent Runtime，或法院、公安、金融、制造、能源等垂直领域项目经验者优先考虑。
+
+
+
+### [AI研发高级工程师 13-20K](https://www.zhipin.com/job_detail/98142fbdcf0dc9550nFy39u8EVtZ.html?securityId=HSBZyIUZlPhKm-v1the-mVgq3wT8qao0LRTtkEXTLNdf3XGblzpd3kRMbPgECF5pmQ6JLxOoZ2_vPzBb6wIplSlVRVJnm7Evb_7uQXdwP1DC87c4k-qdikYYXuWhI1H6j5nbgJzWLn9VAr9KPkXOOgaCiNhmHajEnyhY7WDLOg0nAp9S37VoeGBEkiESako8U7ShMg7LLOrnUTPBsLzcKZUUFNfUrfaT0HHKtecNulgAgUpKQ0PnB8AjIp03JtEDU5D0n7a5BImooX2778kKgLJNqdYesPbMAYYbE407tR-v09qWfAaoht_PbMBDIYe485QoFReXdQDPJtlTXocsNhVy0as2epVFACj9HHzmAD4vzfkM8zbzIuVXQ2bExts4v7hIj167X-cfrY7LUqe7MYaPdfcQKETWCI7deA~~&ka=company_more_job_98142fbdcf0dc9550nFy39u8EVtZ)
+
+长沙 1-3年 本科
+
+**职位概述**  
+负责Agent平台核心产品的端到端交付，深度参与从问题定义、数据工程、模型集成、Agent开发、评估上线到持续监控的完整工程链路，将AI Agent、RAG、知识图谱等技术转化为可落地的产品能力。工作涵盖AI Agent应用开发（如智能问答、AI获客、AI选房、AI经纪人等）、多模型推理优化、Workflow自动化编排、ML管道构建及系统稳定性保障。期待你具备扎实的软件工程功底和机器学习基础，能与产品经理紧密协作，将模糊业务需求拆解为清晰技术方案，并在成本、性能与时效间做出合理工程权衡。
+
+---
+
+**岗位职责**  
+
+**1. Agent架构设计与开发**  
+- 负责基于LLM的AI Agent系统架构设计、模块拆分与核心代码实现；  
+- 实现多Agent协作框架（Multi-Agent Orchestration），支持任务分解、工具调用（Tool Use/Function Calling）与记忆管理（Memory/RAG）。  
+
+**2. RAG与知识库系统**  
+- 设计并实现检索增强生成（RAG）链路，包括文档解析、向量化（Embedding）、向量数据库（PgVector/Milvus/Qdrant）索引与召回策略优化；  
+- 支持多模态知识库（文本、图片、表格）的检索与生成。  
+
+**3. 工具链与接口集成**  
+- 开发Agent与外部系统的工具接口（API、数据库、搜索引擎、代码执行环境等）；  
+- 实现Agent的观测与调试能力（Tracing、Logging、Eval）。  
+
+**4. 产品化与性能优化**
+
+- 将Agent能力封装为可复用的SDK/API服务，支持高并发、低誕迟的线上调用；
+- 持续优化Agent的响应速度、准确率与成本效益。
+
+**任职要求（硬性条件）**  
+
+**经验**  
+- 2年以上LLM / AI Agent相关项目经验；  
+
+**编程语言**  
+- 精通Python，熟悉Go / Java（Spring Boot）至少一种；  
+
+**大模型**
+
+- 熟悉OpenAI、DeepSeek、Qwen、Llama等主流模型生态，掌握Prompt Engineering与高级调用技巧；  
+
+**推理框架**  
+
+- 熟悉vLLM、SGLang、TGI中至少一种，具备生产环境部署与性能调优经验；  
+
+**向量数据库**  
+
+- 熟悉PgVector、Milvus、Qdrant、Faiss中至少一种；  
+
+**工程基础**  
+- 熟悉Linux运维、Docker / K8s容器化部署、Git工作流、RESTful / gRPC接口设计。  
+
+**备注**  
+本岗位不接收纯理论研究方向候选人，要求具备可落地的工程化能力与生产环境部署经验。面试环节将包含代码实操与Agent系统设计案例分析。  
+
+**加分项**  
+- 有房产中介、CRM或营销科技行业AI产品开发经验。
+
+- 有Multi-Agent系统开发经验；  
+- 有知识图谱构建与应用经验；  
+- 熟悉语音AI、对话式AI或实时交互系统；  
+- 有开源项目贡献或技术博客。  
+
+**技术栈参考**  
+Python、PyTorch/TensorFlow、LangChain/LlamaIndex、向量数据库（Milvus/Pinecone/FAISS）、图数据库（Neo4j）、Agent框架（AutoGen/LangGraph/CrewAI）、Docker/Kubernetes、MLflow、AWS/GCP/Azure、PostgreSQL/Redis、MCP。  
+
+**薪资**  
+面议。  
+
+**工作地点**  
+岳麓区西湖公园58小镇。
+
+
+
+
+
+### [AI 应用开发工程师 8-12k 深圳 经验不限 学历不限](https://www.zhipin.com/job_detail/2202fe422ec3f4520nB-09m9FlVY.html?ka=company_more_job_2202fe422ec3f4520nB-09m9FlVY)
+
+
+
+深圳异数甲电子商务 · 总经理
+
+收藏立即沟通
+举报微信扫码分享
+职位描述
+Docker MySQL 架构设计经验 Python
+
+职位猫述
+Docker
+MySQL
+架构设计经验
+Python
+AI应用开发工程师|制造业Al Agent/工作流自动化方向
+薪资范围
+8K-12K/月
+可接受优秀应届生、1-3年经验开发者、A!应用方向转型者
+我们在做什么
+我们是一家有真实业务场景的门窗制造工厂，现在正在从0到1搭建内部A!系统。
+
+
+
 ### LLM训练、部署
 
 

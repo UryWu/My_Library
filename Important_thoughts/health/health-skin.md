@@ -2,6 +2,36 @@
 
 [真我app 查妆识美](https://link.zhihu.com/?target=https%3A//a.app.qq.com/o/simple.jsp%3Fpkgname%3Dcom.focusgene.findme%26fromcase%3D40003)
 
+
+
+
+
+#### [不同痘痘对应的药](https://www.bilibili.com/video/BV1fm4y1r7yQ/)
+
+![image-20260721034757952](./health-skin.assets/image-20260721034757952.png)
+
+![image-20260721034813944](./health-skin.assets/image-20260721034813944.png)
+
+![image-20260721034822880](./health-skin.assets/image-20260721034822880.png)
+
+![image-20260721034832924](./health-skin.assets/image-20260721034832924.png)
+
+
+
+
+
+律人夫斯基
+
+1、闭口粉刺：阿达帕林凝胶/维A酸乳膏（每晚一次）；
+2、炎症丘疹（红痘痘）：外涂夫西地酸乳膏/莫匹罗星乳膏；
+3、脓疱痘（红痘痘上冒了小白尖）：早涂夫西地酸乳膏，晚涂阿达帕林凝胶；
+4、囊肿结节性痘痘（大而硬）：外涂氧苯甲酰凝胶，同时配合口服多西环素。
+2023-03-30 22:09 👍5155
+
+
+
+
+
 #### [一个冒牌配方师博主的忏悔](https://www.bilibili.com/video/BV1m84y1H71P/?spm_id_from=333.999.0.0&vd_source=f03b9d349cef8aff4a045d602d8a1d82)
 
 2023-02-10 14:02:46
